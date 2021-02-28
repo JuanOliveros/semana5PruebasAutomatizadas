@@ -13,5 +13,4 @@ Scenario: Check title of website after search
 
 Scenario: Another test
     Given ...
-
 ```

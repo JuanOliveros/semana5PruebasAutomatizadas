@@ -1,5 +1,5 @@
-# semana5PruebasAutomatizadas
-
+__myFirstTest.feature__
+```gherkin
 Feature:
     In order to keep my product stable
     As a developer or product manager
@@ -13,3 +13,5 @@ Scenario: Check title of website after search
 
 Scenario: Another test
     Given ...
+
+```

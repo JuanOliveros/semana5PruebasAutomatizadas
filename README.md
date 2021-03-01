@@ -1,3 +1,5 @@
+**Funcionalidad 1 - kraken - Juan Oliveros**
+
 __myFirstTest.feature__
 ```gherkin
 Feature: Shared board connection

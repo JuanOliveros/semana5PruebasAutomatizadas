@@ -1,6 +1,6 @@
-# Ejemplo
+# Playwright-testing
 
-This repo contains several simple examples of using [Playwright](https://github.com/microsoft/playwright).
+This repo contains a testing with [Playwright](https://github.com/microsoft/playwright).
 Here you can find PlayWright usage with [Jest](https://jestjs.io/).
 
 ### How to run tests
@@ -15,7 +15,5 @@ jest test
 
 ```
 npm install
-node simple/testHabrPlaywright.ts
+node simple/name0x.ts
 ```
-### Useful links
-[Examples wuth cucumber](https://github.com/fredericbonnet/instakittens-react-admin/tree/master/playwright) 

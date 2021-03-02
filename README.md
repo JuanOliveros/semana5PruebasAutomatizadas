@@ -1,4 +1,45 @@
+### Pruebas Kraken - Juan Oliveros 
+En el siguiente link podrás recibir una introducción a las pruebas:
+https://www.youtube.com/watch?v=nWrW5QZoEu8
 
+##### Ejecución
+
+```bash
+bundle install
+bundle exec kraken-mobile run
+```
+alternativo
+` kraken-mobile run`
+
+##### bloque principal de pruebas kraken
+Inicialmente debes hacer git clone al archivo funcioanlidadesKraken y correr los comandos desde este directorio.
+
+##### Funcionalidad 01
+
+- Se valida la funcioanlidad de login correcta
+- Se valida la funcioanlidad de login incorrecta
+Vea el archivo en el repositorio  [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/playwright-testing/simple/testLogin.ts)
+
+##### Funcionalidad 02
+- Se valida que el usuario pueda agragr un título al post
+- El usuario agragar caracteres especiales al título del post
+Vea el archivo en el repositorio  [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/playwright-testing/simple/testItems01.ts)
+
+##### Funcionalidad 03
+- Validar que el usuario tenga habilitada la opción de eliminar
+- Validar que el usuario pueda eliminar definitivamente el tag
+Vea el archivo en el repositorio  [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/playwright-testing/simple/testItem02.ts)
+
+##### Funcionalidad 04
+- Validar que el usuario tega habilitada la opción de añadir un path de navegación.
+- Eliminar un path de navegación
+Vea el archivo en el repositorio  [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/playwright-testing/simple/testConfig.ts)
+
+##### Funcionalidad 05
+- Validar que se logre ver un preview del post en borrador.
+- Poder editar el path del draft de navegación.
+
+Vea el archivo en el repositorio  [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/playwright-testing/simple/testConfig.ts)
 
 
 #### Pruebas BDT con Playwright - Christian Loza Peralta

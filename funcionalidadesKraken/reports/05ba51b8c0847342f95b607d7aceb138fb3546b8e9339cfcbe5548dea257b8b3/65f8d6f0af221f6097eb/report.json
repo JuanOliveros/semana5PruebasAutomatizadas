@@ -1,0 +1,171 @@
+[
+  {
+    "uri": "C:/PA/WEEK_5/funcioanlidad1/./features/checkTitle.feature",
+    "id": "shared-board-connection",
+    "keyword": "Feature",
+    "name": "Shared board connection",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "shared-board-connection;as-a-user-existent-i-can-login-succesfull-with-mail-account-and-my-password",
+        "keyword": "Scenario",
+        "name": "As a user existent I can login succesfull with mail account and my password",
+        "description": "",
+        "line": 12,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@user2",
+            "line": 11
+          },
+          {
+            "name": "@web",
+            "line": 11
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/web/support/app_life_cycle_hooks.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5719973
+            }
+          },
+          {
+            "match": {
+              "location": "C:/PA/WEEK_5/KrakenMobile-1.0.7/lib/kraken-mobile/steps/web/kraken_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1965343359
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I navigate to page \"http://localhost:2368/ghost/#/posts\"",
+            "line": 13,
+            "match": {
+              "location": "C:/PA/WEEK_5/KrakenMobile-1.0.7/lib/kraken-mobile/steps/web/kraken_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4150982145
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "C:/PA/WEEK_5/KrakenMobile-1.0.7/lib/kraken-mobile/steps/web/kraken_steps.rb:87"
+                },
+                "result": {
+                  "status": "failed",
+                  "error_message": "No such file or directory @ rb_sysopen - ./reports/446da520f5e4e685e9d4b4d06fb1089e8dda2e9788ece45abcede690a5b59bab/screenshots//1e048e9bac4f0c2c2bbeb8b9.png (Errno::ENOENT)\nC:/PA/WEEK_5/KrakenMobile-1.0.7/lib/kraken-mobile/steps/web/kraken_steps.rb:89:in `AfterStep'\n././features/checkTitle.feature:13:in `Given I navigate to page \"http://localhost:2368/ghost/#/posts\"'",
+                  "duration": 5175124
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I enter \"j.oliverosv@uniandes.edu.co\" into input field having className \"email\"",
+            "line": 14,
+            "match": {
+              "location": "features/web/step_definitions/web_steps.rb:4"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "C:/PA/WEEK_5/KrakenMobile-1.0.7/lib/kraken-mobile/steps/web/kraken_steps.rb:87"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I enter \"Almendra1.*\" into input field having className \"password\"",
+            "line": 15,
+            "match": {
+              "location": "features/web/step_definitions/web_steps.rb:4"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "C:/PA/WEEK_5/KrakenMobile-1.0.7/lib/kraken-mobile/steps/web/kraken_steps.rb:87"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on element having className \"login\"",
+            "line": 16,
+            "match": {
+              "location": "features/web/step_definitions/web_steps.rb:8"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "C:/PA/WEEK_5/KrakenMobile-1.0.7/lib/kraken-mobile/steps/web/kraken_steps.rb:87"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on element having className \"newPost\"",
+            "line": 17,
+            "match": {
+              "location": "features/web/step_definitions/web_steps.rb:8"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "C:/PA/WEEK_5/KrakenMobile-1.0.7/lib/kraken-mobile/steps/web/kraken_steps.rb:87"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/web/support/app_life_cycle_hooks.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6035832806
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

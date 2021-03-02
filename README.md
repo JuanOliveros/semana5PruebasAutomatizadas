@@ -1,4 +1,4 @@
-##### Pruebas Kraken - Juan Oliveros 
+<H1> Pruebas Kraken - Juan Oliveros </H1>
 En el siguiente link podrás recibir una introducción a las pruebas:
 https://www.youtube.com/watch?v=nWrW5QZoEu8
 
@@ -43,7 +43,7 @@ Vea el archivo en el repositorio  [AQUI](https://github.com/JuanOliveros/semana5
 Vea el archivo en el repositorio  [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/features/previewDraft.feature)
 
 
-#### Pruebas BDT con Playwright - Christian Loza Peralta
+<H1> Pruebas BDT con Playwright - Christian Loza Peralta </H1>
 ![imagen](https://user-images.githubusercontent.com/15898160/109695637-21d7dc80-7b5a-11eb-813b-6dc31b690a30.png)
 ![imagen](https://user-images.githubusercontent.com/15898160/109695672-2c927180-7b5a-11eb-991e-846e20ac06d0.png)
 

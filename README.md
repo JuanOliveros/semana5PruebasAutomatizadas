@@ -89,7 +89,7 @@ alternativo
 
 ##### Bloque principal de pruebas kraken
 Inicialmente debes hacer git clone al archivo funcioanlidadesKraken y correr los comandos desde este directorio.
-el link del step_definition:  [AQUI] (https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/features/web/step_definitions/web_steps.rb)
+el link del step_definition:  [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/features/web/step_definitions/web_steps.rb)
 
 ##### Funcionalidad 01
 

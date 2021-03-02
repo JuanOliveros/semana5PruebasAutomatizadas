@@ -76,7 +76,7 @@ Vea el archivo en el repositorio  [AQUI](https://github.com/JuanOliveros/semana5
 
 #####<H1> Pruebas Kraken - Juan Oliveros </H1>
 En el siguiente link podrás recibir una introducción a las pruebas:
-https://www.youtube.com/watch?v=nWrW5QZoEu8
+https://vimeo.com/518762289/4a934dddc8
 
 ##### Ejecución
 

@@ -1,8 +1,43 @@
 
+## Pruebas BDT con Playwright - Christian Loza Peralta 
 
-#####<H1> Pruebas BDT con Playwright - Christian Loza Peralta </H1>
-![imagen](https://user-images.githubusercontent.com/15898160/109695637-21d7dc80-7b5a-11eb-813b-6dc31b690a30.png)
-![imagen](https://user-images.githubusercontent.com/15898160/109695672-2c927180-7b5a-11eb-991e-846e20ac06d0.png)
+##### Nuevas funcionalidades, regresión y comparación
+
+Las pruebas realizadas en las nuevas funcionalides en comparación  no pasan las pruebas de  regresión debido a que las versiones especificadas en  uso no representan semenjanza en en el Ghost Admin.
+
+![imagen](https://user-images.githubusercontent.com/15898160/110220401-86b17080-7e93-11eb-8e9e-3c2a13caef54.png)
+
+#### Tabla de comparación
+
+|  Ghost 3.41.6 |   Ghost 3.3.0 |  visual regression |Result|
+| ------------ | ------------ | ------------ |------------|
+|  ![imagen](https://user-images.githubusercontent.com/15898160/110219787-405a1280-7e8f-11eb-9033-f90d924250f2.png) |  ![imagen](https://user-images.githubusercontent.com/15898160/110219799-54057900-7e8f-11eb-8dd3-fe91585839d1.png) |  ![imagen](https://user-images.githubusercontent.com/15898160/110219816-697aa300-7e8f-11eb-9674-eee9cd1d0b6d.png) |**Failed **</br>There are some elements that are not the same |
+
+|  Ghost 3.41.6 |   Ghost 3.3.0 |  visual regression |Result|
+| ------------ | ------------ | ------------ |------------|
+|![imagen](https://user-images.githubusercontent.com/15898160/110220156-ba8b9680-7e91-11eb-8dbf-711668584387.png)|![imagen](https://user-images.githubusercontent.com/15898160/110220046-1275cd80-7e91-11eb-9516-9b95b4f9ce4d.png)|![imagen](https://user-images.githubusercontent.com/15898160/110220176-d0995700-7e91-11eb-8571-83bcb3196382.png)|**Failed **</br>There are some elements that are not the same |
+
+|  Ghost 3.41.6 |   Ghost 3.3.0 |  visual regression |Result|
+| ------------ | ------------ | ------------ |------------|
+|![imagen](https://user-images.githubusercontent.com/15898160/110220230-1d7d2d80-7e92-11eb-8b85-2a5809141386.png)|![imagen](https://user-images.githubusercontent.com/15898160/110220231-20781e00-7e92-11eb-8621-9c9a771c54de.png)|![imagen](https://user-images.githubusercontent.com/15898160/110220234-22da7800-7e92-11eb-932d-0c61a85b9f2b.png)|**Passed **</br> |
+
+|  Ghost 3.41.6 |   Ghost 3.3.0 |  visual regression |Result|
+| ------------ | ------------ | ------------ |------------|
+|![imagen](https://user-images.githubusercontent.com/15898160/110220316-d17eb880-7e92-11eb-8733-630b19c53aa1.png)|![imagen](https://user-images.githubusercontent.com/15898160/110220319-d479a900-7e92-11eb-8308-f7012a6254b4.png)|![imagen](https://user-images.githubusercontent.com/15898160/110220320-d5aad600-7e92-11eb-8fbb-84bf8c1a5376.png)|**Failed **</br>There are some elements that are not the same |
+
+|  Ghost 3.41.6 |   Ghost 3.3.0 |  visual regression |Result|
+| ------------ | ------------ | ------------ |------------|
+|![imagen](https://user-images.githubusercontent.com/15898160/110220337-fb37df80-7e92-11eb-9273-e6ecd81cfefc.png)|![imagen](https://user-images.githubusercontent.com/15898160/110220340-fd01a300-7e92-11eb-8e9d-bfb93ca00958.png)|![imagen](https://user-images.githubusercontent.com/15898160/110220345-ff63fd00-7e92-11eb-9909-3db57e37e2cb.png)|**Failed **</br>There are some elements that are not the same |
+
+
+
+-  Gestión de hooks ([Ver aqui](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/playwright-testing/simple/testcase01.ts "Ver aqui"))
+-  Nuevos miembros de staff ([Ver aqui](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/playwright-testing/simple/testcase02.ts "Ver aqui"))
+-  Agregar nuevos items en diseño ([Ver aqui](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/playwright-testing/simple/testcase03.ts "Ver aqui"))
+
+|   |   |
+| ------------ | ------------ |
+| ![imagen](https://user-images.githubusercontent.com/15898160/109695637-21d7dc80-7b5a-11eb-813b-6dc31b690a30.png)| ![imagen](https://user-images.githubusercontent.com/15898160/109695672-2c927180-7b5a-11eb-991e-846e20ac06d0.png)|
 
 ##### Ejecución
 
@@ -72,6 +107,7 @@ Vea el archivo en el repositorio  [AQUI](https://github.com/JuanOliveros/semana5
 -  Comprobación y agregación de Metadatos de descripción del sitio
 
 Vea el archivo en el repositorio  [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/playwright-testing/simple/testConfig.ts)
+
 
 
 #####<H1> Pruebas Kraken - Juan Oliveros </H1>

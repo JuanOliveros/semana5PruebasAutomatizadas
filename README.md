@@ -7,6 +7,17 @@ Las pruebas realizadas en las nuevas funcionalides en comparación  no pasan las
 
 ![imagen](https://user-images.githubusercontent.com/15898160/110220401-86b17080-7e93-11eb-8e9e-3c2a13caef54.png)
 
+##### Nueva funcionalidad agregada
+Se agrego una funcionalidad para evitar problemas al cargar la página para conexiones lentas.
+```javascript
+function delay(time) {
+    return new Promise(function(resolve) {
+        setTimeout(resolve, time)
+    });
+}
+
+```
+
 #### Tabla de comparación
 
 |  Ghost 3.41.6 |   Ghost 3.3.0 |  visual regression |Result|
@@ -29,7 +40,7 @@ Las pruebas realizadas en las nuevas funcionalides en comparación  no pasan las
 | ------------ | ------------ | ------------ |------------|
 |![imagen](https://user-images.githubusercontent.com/15898160/110220337-fb37df80-7e92-11eb-9273-e6ecd81cfefc.png)|![imagen](https://user-images.githubusercontent.com/15898160/110220340-fd01a300-7e92-11eb-8e9d-bfb93ca00958.png)|![imagen](https://user-images.githubusercontent.com/15898160/110220345-ff63fd00-7e92-11eb-9909-3db57e37e2cb.png)|**Failed **</br>There are some elements that are not the same |
 
-
+##### Funcionalidades Semana 06
 
 -  Gestión de hooks ([Ver aqui](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/playwright-testing/simple/testcase01.ts "Ver aqui"))
 -  Nuevos miembros de staff ([Ver aqui](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/playwright-testing/simple/testcase02.ts "Ver aqui"))

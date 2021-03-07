@@ -1,5 +1,8 @@
 if ENV["ADB_DEVICE_ARG"].nil?
   require 'kraken-mobile/steps/web/kraken_steps'
+  
+$version330 = '1'
+$version3466 = '2'
 
 Then(/^I enter "([^\"]*)" into input field having className "([^\"]*)"$/) do |text, className|
     @driver.find_element(:class, className).send_keys(text)
@@ -29,5 +32,7 @@ Then(/^I enter "(.?)" into input field having className2 "(.?)"$/) do |text_id,c
     sleep 1
   end
 
+
 end
+
 

@@ -1,4 +1,4 @@
-Feature: Shared board connection
+Feature: loggion a paltform
 
   @user1 @web
   Scenario: As a user existent I can login succesfull with mail account and my password

@@ -152,7 +152,7 @@ Se logro correr el Ghost versión  3.3.0 por el puerto 2999 y el Ghost versión 
 |![imagen](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/imagenes/5/01.png)|![imagen](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/imagenes/5/02.png)|![imagen](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/imagenes/5/diff_5.png)|**Failed **</br>The second image is 21.27% different compared to the first. And they have different dimensions. |
 
 #####<H1> Pruebas Kraken - Juan Diego Oliveros - Funcionalidades semana 06 </H1>
-- Cada normalmentete contiene 2 escenarios.
+- Cada archivo feature, normalmentete contiene 2 escenarios.
 
 ##### Funcionalidad 01
 

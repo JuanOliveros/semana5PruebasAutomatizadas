@@ -1,4 +1,4 @@
-Feature: Shared board connection
+Feature: Preview link
 
   @user1 @web
   Scenario: As a user existent I should see the preview link for a draft post

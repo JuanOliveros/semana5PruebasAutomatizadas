@@ -17,8 +17,22 @@ function delay(time) {
 }
 
 ```
+#### Reporte automático con BackstopJS
+![imagen](https://user-images.githubusercontent.com/15898160/110229104-014eb000-7ed5-11eb-99e4-aa39c1950702.png)
+![imagen](https://user-images.githubusercontent.com/15898160/110229283-52ab6f00-7ed6-11eb-8145-b97a9e6ee8bd.png)
+
+
+[https://github.com/JuanOliveros/semana5PruebasAutomatizadas/tree/main/backstop-report](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/tree/main/backstop-report)
+
+`backstop reference, test`
+
+Para visualizar el reporte vaya a la ruta `backstop-report/backstop_data/html_report`  el archivo `index.html`
+
+
 
 #### Tabla de comparación
+
+
 
 |  Ghost 3.41.6 |   Ghost 3.3.0 |  visual regression |Result|
 | ------------ | ------------ | ------------ |------------|

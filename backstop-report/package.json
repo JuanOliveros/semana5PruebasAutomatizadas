@@ -1,0 +1,14 @@
+{
+  "name": "bkstop2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian Loza",
+  "license": "ISC",
+  "dependencies": {
+    "resemblejs": "^3.2.5"
+  }
+}

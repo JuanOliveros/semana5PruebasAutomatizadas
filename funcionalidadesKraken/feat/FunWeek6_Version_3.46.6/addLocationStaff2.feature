@@ -1,4 +1,4 @@
-Feature: Shared board connection
+Feature: validate fields
 
   @user1 @web
   Scenario: As a user existent I need validate website url with specials charters

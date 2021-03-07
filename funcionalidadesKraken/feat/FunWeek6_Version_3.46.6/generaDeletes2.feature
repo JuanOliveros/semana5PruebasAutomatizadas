@@ -1,4 +1,4 @@
-Feature: Shared board connection
+Feature: Delete image
 
   @user1 @web
   Scenario: As a user existent I can delete logo

@@ -1,4 +1,4 @@
-Feature: Shared board connection
+Feature: Downloads files
 
   @user1 @web
   Scenario:  As a user existent I can download current redirects in lab option

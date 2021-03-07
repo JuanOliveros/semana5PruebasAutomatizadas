@@ -1,8 +1,8 @@
-Feature: Shared board connection
+Feature: Activate and download
 
   @user1 @web
   Scenario: As a user existent I see activate member in lab option
-    Given I navigate to page "http://localhost:2369/ghost"
+    Given I navigate to page "http://localhost:2368/ghost"
     Then I enter "j.oliverosv@uniandes.edu.co" into input field having className "email"
     Then I enter "Almendra1.*" into input field having className "password"
     Then I click on element having className "login"
@@ -15,8 +15,8 @@ Feature: Shared board connection
 	
 
   @user2 @web 
-  Scenario:  As a user existent I can sownload a current routes.yaml
-    Given I navigate to page "http://localhost:2369/ghost"
+  Scenario:  As a user existent I can download a current routes.yaml
+    Given I navigate to page "http://localhost:2368/ghost"
     Then I enter "j.oliverosv@uniandes.edu.co" into input field having className "email"
     Then I enter "Almendra1.*" into input field having className "password"
     Then I click on element having className "login"

@@ -1,4 +1,4 @@
-Feature: Shared board connection
+Feature: Valitare URL Facebook
 
   @user1 @web
   Scenario: As a user existent I need validate add a facebook url into twitter field

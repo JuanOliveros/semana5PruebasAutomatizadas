@@ -1,4 +1,4 @@
-Feature: Shared board connection
+Feature: expand option
 
   @user1 @web
   Scenario: As a user existent I can expand title and description

@@ -1,4 +1,4 @@
-Feature: Shared board connection
+Feature: Valita link text
 
   @user1 @web
   Scenario:  As a user existent I can open new tab for Mailgun API  in lab option

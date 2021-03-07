@@ -1,4 +1,4 @@
-Feature: Shared board connection
+Feature: Add text
 
   @user1 @web
   Scenario: As a user existent I can add succesfull my location

@@ -1,4 +1,4 @@
-Feature: Shared board connection
+Feature: delete a option
 
   @user1 @web
   Scenario: As a user existent I can get delete option  succesfull a tag

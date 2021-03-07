@@ -213,7 +213,7 @@ Se logro correr el Ghost versión  3.3.0 por el puerto 2999 y el Ghost versión 
 
 -Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/feat/FunWeek6_Version_3.3.0/LabsMailgunAPI.feature)
 
-#####<H1> Pruebas Kraken - Juan Diego Oliveros semana 05 </H1>
+#####<H1> Pruebas Kraken - Juan Diego Oliveros - Funcionalidades semana 05 </H1>
 En el siguiente link podrás recibir una introducción a las pruebas:
 https://vimeo.com/518762289/4a934dddc8
 

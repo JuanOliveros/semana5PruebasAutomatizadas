@@ -1,4 +1,4 @@
-Feature: Shared board connection
+Feature: Loggin and create title a post
 
   @user1 @web
   Scenario: As a user existent I can login succesfull and creat a  title for a post

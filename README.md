@@ -120,8 +120,38 @@ Vea el archivo en el repositorio  [AQUI](https://github.com/JuanOliveros/semana5
 Vea el archivo en el repositorio  [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/playwright-testing/simple/testConfig.ts)
 
 
+## Pruebas BDT con Resemble.js - Juan Diego Oliveros Actividad semana 6
 
-#####<H1> Pruebas Kraken - Juan Oliveros </H1>
+##### Nuevas funcionalidades, regresión y comparación.
+
+Mediantes las pruebas de regresión, se puede comprabar que las dferencias hacen referencia a cambios de las veriones de los Ghost y también por personalización del usuario.
+Se logro correr el Ghost versión  3.3.0 por el puerto 2999 y el Ghost versión 3.41.6 por el puerto: 2368.
+
+![imagen](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/imagenes/ghostRun.JPG)
+
+
+#### Tabla de comparación
+|  Ghost 3.3.0 |   Ghost 3.41.6 |  visual regression |Result|
+| ------------ | ------------ | ------------ |------------|
+|  ![imagen](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/imagenes/1/01.png) |  ![imagen](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/imagenes/1/02.png) |  ![imagen](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/imagenes/1/diff_1.png) |**Failed **</br>The second image is 2.31% different compared to the first. |
+
+|  Ghost 3.3.0 |   Ghost 3.41.6 |  visual regression |Result|
+| ------------ | ------------ | ------------ |------------|
+|![imagen](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/imagenes/2/01.png)|![imagen](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/imagenes/2/02.png)|![imagen](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/imagenes/2/diff_2.png)|**Failed **</br>The second image is 2.60% different compared to the first. |
+
+|  Ghost 3.3.0 |   Ghost 3.41.6 |  visual regression |Result|
+| ------------ | ------------ | ------------ |------------|
+|![imagen](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/imagenes/3/01.png)|![imagen](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/imagenes/3/02.png)|![imagen](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/imagenes/3/diff_3.png)|**Failed **</br> The second image is 1.99% different compared to the first.|
+
+|  Ghost 3.3.0 |   Ghost 3.41.6 |  visual regression |Result|
+| ------------ | ------------ | ------------ |------------|
+|![imagen](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/imagenes/4/01.png)|![imagen](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/imagenes/4/02.png)|![imagen](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/imagenes/4/diff_4.png)|**Failed **</br>The second image is 1.99% different compared to the first. |
+
+|  Ghost 3.3.0 |   Ghost 3.41.6 |  visual regression |Result|
+| ------------ | ------------ | ------------ |------------|
+|![imagen](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/imagenes/5/01.png)|![imagen](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/imagenes/5/02.png)|![imagen](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/imagenes/5/diff_5.png)|**Failed **</br>The second image is 21.27% different compared to the first. And they have different dimensions. |
+
+#####<H1> Pruebas Kraken - Juan Diego Oliveros </H1>
 En el siguiente link podrás recibir una introducción a las pruebas:
 https://vimeo.com/518762289/4a934dddc8
 
@@ -134,7 +164,7 @@ bundle exec kraken-mobile run
 alternativo
 ` kraken-mobile run`
 
-##### Bloque principal de pruebas kraken
+##### Bloque principal de pruebas kraken Actividad semana 5
 Inicialmente debes hacer git clone al archivo funcioanlidadesKraken y correr los comandos desde este directorio.
 el link del step_definition:  [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/features/web/step_definitions/web_steps.rb)
 

@@ -11,7 +11,7 @@ Instrucciones:
 - En la carpte integration>examples, agregue los dos archivos js que están en la carpeta (Estrategía dinámica (60) Faker Cypress - Juan Oliveros)
 - Ejecute cada uno de los archivos.
 
-Nota: Para la ejecución del Ghost, es obligaotorio tener Ghost instalado en el puesto: 2368 - versión 3.46.6
+Nota: Para la ejecución del Ghost, es obligatorio tener Ghost instalado en el puesto: 2368 - versión 3.46.6
 
 #### Funcionalidad 01 (Logging)
 El objetivo de crear distintos escenarios con datos aleatorios de todo tipo, como: correos, contraseñas, colores, nomres de archivos, etc. Esta cantidad de combinaciones nos permite validar el acceso al admin del Ghost. En el código se puede detallar los escenario.

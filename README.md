@@ -1,7 +1,7 @@
 ## Semana 07 - Pruebas con generación de datos automáticos y manuales
 
 ### Estrátegia dinámica - Juan Oliveros
-Para la estrátegía dinámica se realizó la librería Faker en Cypress:
+Para la estrátegía dinámica se realizó con la librería Faker en Cypress:
 Instrucciones:
 - Crear un carpeta para el proyecto - (en terminal como mkdir test).
 - Ubiquese en la carpeta que creó y ejecute el siguiente comando - (npm init) (enter a todo).

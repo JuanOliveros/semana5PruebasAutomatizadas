@@ -42,6 +42,7 @@ Esta funcionalidad se prueba con un servicio REST implementado en Java [VER AQUI
 Para su ejecución requiere ejecutar `mvn clean package` y luego ejecutar `java -jar target/faker-1.0-SNAPSHOT.jar` el puerto 9876 debe estar libre. 
 La especificación del servicio puede verse en mediante el siguiente enlace: http://localhost:9876/api-specs/swagger.json
 
+### Caso Aleatorio  - Christian Loza
 #### Funcionalidad 05(Add Member Staff)
 Este caso utiliza las  implementaciones  anteriores,  requiere las configuraciones señaladas anteriormente para su ejección.
 Esta funcionalidad se prueba con un servicio REST implementado en Java [VER AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/tree/main/semana07/faker "VER AQUI"). 

@@ -50,6 +50,25 @@ Esta funcionalidad se prueba con un servicio REST implementado en Java [VER AQUI
 
 
 ## Pruebas BDT con Playwright - Christian Loza Peralta 
+Se utiliza bubles para ejecutar bloques de código de manera rápida consumiendo servicio u obteniendo los datos dentro del proyecto.
+```javascript
+(async function () {
+            try {
+                const response = await fetch(PATHSERVICE + 'integration-data');
+                let  myJson = await response.json();
+                for (let i=0; i< myJson.length; i++) {
+                    await page.click('text=Add custom integration');
+                    await page.fill('[placeholder="Integration name..."]', myJson[i]);
+                    delay(1000)
+                    await page.click('text=Integrations');
+                }
+
+            } catch (error) {
+                console.log('i found a  bug ');
+                throw error
+            }
+        })().catch( e => { console.error(e) })
+```
 
 ##### Nuevas funcionalidades, regresión y comparación
 

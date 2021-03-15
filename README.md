@@ -28,7 +28,25 @@ Vea el archivo en el repositorio  [AQUI](https://github.com/JuanOliveros/semana5
 
 
 ### Datapool Apriori  - Christian Loza
+Se utiliza bubles para ejecutar bloques de código de manera rápida consumiendo servicio u obteniendo los datos dentro del proyecto.
+```javascript
+(async function () {
+            try {
+                const response = await fetch(PATHSERVICE + 'integration-data');
+                let  myJson = await response.json();
+                for (let i=0; i< myJson.length; i++) {
+                    await page.click('text=Add custom integration');
+                    await page.fill('[placeholder="Integration name..."]', myJson[i]);
+                    delay(1000)
+                    await page.click('text=Integrations');
+                }
 
+            } catch (error) {
+                console.log('i found a  bug ');
+                throw error
+            }
+        })().catch( e => { console.error(e) })
+```
 #### Funcionalidad 03(Add Member Staff)
 Esta funcionalidad se prueba agregar miembros con diversos correos váidos y errones que determinan agregar usuarios. para este caso se usan valores de un array con elementos fijos el cual se utiliza datos del arreglo de forma aleatoria.
 La prueba puede encontrar en el primer bloque de código [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/semana07/test-pruebas/simple/testcase01.ts "AQUI")
@@ -50,25 +68,6 @@ Esta funcionalidad se prueba con un servicio REST implementado en Java [VER AQUI
 
 
 ## Pruebas BDT con Playwright - Christian Loza Peralta 
-Se utiliza bubles para ejecutar bloques de código de manera rápida consumiendo servicio u obteniendo los datos dentro del proyecto.
-```javascript
-(async function () {
-            try {
-                const response = await fetch(PATHSERVICE + 'integration-data');
-                let  myJson = await response.json();
-                for (let i=0; i< myJson.length; i++) {
-                    await page.click('text=Add custom integration');
-                    await page.fill('[placeholder="Integration name..."]', myJson[i]);
-                    delay(1000)
-                    await page.click('text=Integrations');
-                }
-
-            } catch (error) {
-                console.log('i found a  bug ');
-                throw error
-            }
-        })().catch( e => { console.error(e) })
-```
 
 ##### Nuevas funcionalidades, regresión y comparación
 

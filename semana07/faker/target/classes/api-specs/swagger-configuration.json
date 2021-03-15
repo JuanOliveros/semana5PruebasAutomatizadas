@@ -1,0 +1,14 @@
+{
+  "resourcePackages" : [ "edu.uniandes.resource" ],
+  "swagger" : {
+    "info" : {
+      "version" : "1.0.0",
+      "title" : "UNIANDES-FAKER"
+    },
+    "host" : "",
+    "basePath" : "/",
+    "schemes" : [ "http" ]
+  },
+  "applicationClass" : "edu.uniandes.resource.FakerApplication",
+  "swaggerDefinitionClass" : "edu.uniandes.resource.FakerApplication"
+}

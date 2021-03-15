@@ -29,6 +29,24 @@ Vea el archivo en el repositorio  [AQUI](https://github.com/JuanOliveros/semana5
 
 ### Datapool Apriori  - Christian Loza
 
+#### Funcionalidad 03(Add Member Staff)
+Esta funcionalidad se prueba agregar miembros con diversos correos váidos y errones que determinan agregar usuarios. para este caso se usan valores de un array con elementos fijos el cual se utiliza datos del arreglo de forma aleatoria.
+La prueba puede encontrar en el primer bloque de código [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/semana07/test-pruebas/simple/testcase01.ts "AQUI")
+
+Para la configuración requiere Playwrigth utilice el comando: `npm install`  y ejecutar la prueba requiere ejecutar el comando `node simple/testcase01.ts`.
+
+#### Funcionalidad 04(Add Integrations)
+Se prueba la funcionalidad  de las integraciones consumiendo un servicio, el archivo puede verse  [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/semana07/test-pruebas/simple/testcase01.ts "AQUI")
+![imagen](https://user-images.githubusercontent.com/15898160/111100563-05528180-8516-11eb-8252-e601efd2ca6b.png)
+Esta funcionalidad se prueba con un servicio REST implementado en Java [VER AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/tree/main/semana07/faker "VER AQUI"). 
+Para su ejecución requiere ejecutar `mvn clean package` y luego ejecutar `java -jar target/faker-1.0-SNAPSHOT.jar` el puerto 9876 debe estar libre. 
+La especificación del servicio puede verse en mediante el siguiente enlace: http://localhost:9876/api-specs/swagger.json
+
+#### Funcionalidad 05(Add Member Staff)
+Este caso utiliza las  implementaciones  anteriores,  requiere las configuraciones señaladas anteriormente para su ejección.
+Esta funcionalidad se prueba con un servicio REST implementado en Java [VER AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/tree/main/semana07/faker "VER AQUI"). 
+
+
 
 ## Pruebas BDT con Playwright - Christian Loza Peralta 
 

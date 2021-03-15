@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/MISO-Pruebasautomatizadas_01_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20210306-232128/MISO-Pruebasautomatizadas_01_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20210309-193418/MISO-Pruebasautomatizadas_01_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "MISO-Pruebasautomatizadas_01_0_document_0_tablet.png",
         "label": "01",
@@ -21,16 +21,16 @@ report({
             "height": 0
           },
           "misMatchPercentage": "3.19",
-          "analysisTime": 162
+          "analysisTime": 177
         },
-        "diffImage": "../bitmaps_test/20210306-232128/failed_diff_MISO-Pruebasautomatizadas_01_0_document_0_tablet.png"
+        "diffImage": "../bitmaps_test/20210309-193418/failed_diff_MISO-Pruebasautomatizadas_01_0_document_0_tablet.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/MISO-Pruebasautomatizadas_02_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20210306-232128/MISO-Pruebasautomatizadas_02_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20210309-193418/MISO-Pruebasautomatizadas_02_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "MISO-Pruebasautomatizadas_02_0_document_0_tablet.png",
         "label": "02",
@@ -47,16 +47,16 @@ report({
             "height": 0
           },
           "misMatchPercentage": "6.70",
-          "analysisTime": 88
+          "analysisTime": 130
         },
-        "diffImage": "../bitmaps_test/20210306-232128/failed_diff_MISO-Pruebasautomatizadas_02_0_document_0_tablet.png"
+        "diffImage": "../bitmaps_test/20210309-193418/failed_diff_MISO-Pruebasautomatizadas_02_0_document_0_tablet.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/MISO-Pruebasautomatizadas_03_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20210306-232128/MISO-Pruebasautomatizadas_03_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20210309-193418/MISO-Pruebasautomatizadas_03_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "MISO-Pruebasautomatizadas_03_0_document_0_tablet.png",
         "label": "03",
@@ -80,7 +80,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/MISO-Pruebasautomatizadas_04_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20210306-232128/MISO-Pruebasautomatizadas_04_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20210309-193418/MISO-Pruebasautomatizadas_04_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "MISO-Pruebasautomatizadas_04_0_document_0_tablet.png",
         "label": "04",
@@ -97,16 +97,16 @@ report({
             "height": 0
           },
           "misMatchPercentage": "31.31",
-          "analysisTime": 120
+          "analysisTime": 126
         },
-        "diffImage": "../bitmaps_test/20210306-232128/failed_diff_MISO-Pruebasautomatizadas_04_0_document_0_tablet.png"
+        "diffImage": "../bitmaps_test/20210309-193418/failed_diff_MISO-Pruebasautomatizadas_04_0_document_0_tablet.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/MISO-Pruebasautomatizadas_05_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20210306-232128/MISO-Pruebasautomatizadas_05_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20210309-193418/MISO-Pruebasautomatizadas_05_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "MISO-Pruebasautomatizadas_05_0_document_0_tablet.png",
         "label": "05",
@@ -123,16 +123,16 @@ report({
             "height": 0
           },
           "misMatchPercentage": "8.19",
-          "analysisTime": 132
+          "analysisTime": 156
         },
-        "diffImage": "../bitmaps_test/20210306-232128/failed_diff_MISO-Pruebasautomatizadas_05_0_document_0_tablet.png"
+        "diffImage": "../bitmaps_test/20210309-193418/failed_diff_MISO-Pruebasautomatizadas_05_0_document_0_tablet.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/MISO-Pruebasautomatizadas_06_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20210306-232128/MISO-Pruebasautomatizadas_06_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20210309-193418/MISO-Pruebasautomatizadas_06_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "MISO-Pruebasautomatizadas_06_0_document_0_tablet.png",
         "label": "06",
@@ -149,16 +149,16 @@ report({
             "height": 0
           },
           "misMatchPercentage": "1.61",
-          "analysisTime": 101
+          "analysisTime": 193
         },
-        "diffImage": "../bitmaps_test/20210306-232128/failed_diff_MISO-Pruebasautomatizadas_06_0_document_0_tablet.png"
+        "diffImage": "../bitmaps_test/20210309-193418/failed_diff_MISO-Pruebasautomatizadas_06_0_document_0_tablet.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/MISO-Pruebasautomatizadas_07_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20210306-232128/MISO-Pruebasautomatizadas_07_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20210309-193418/MISO-Pruebasautomatizadas_07_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "MISO-Pruebasautomatizadas_07_0_document_0_tablet.png",
         "label": "07",
@@ -175,16 +175,16 @@ report({
             "height": 0
           },
           "misMatchPercentage": "42.42",
-          "analysisTime": 155
+          "analysisTime": 124
         },
-        "diffImage": "../bitmaps_test/20210306-232128/failed_diff_MISO-Pruebasautomatizadas_07_0_document_0_tablet.png"
+        "diffImage": "../bitmaps_test/20210309-193418/failed_diff_MISO-Pruebasautomatizadas_07_0_document_0_tablet.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/MISO-Pruebasautomatizadas_07_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20210306-232128/MISO-Pruebasautomatizadas_07_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20210309-193418/MISO-Pruebasautomatizadas_07_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "MISO-Pruebasautomatizadas_07_0_document_0_tablet.png",
         "label": "07",
@@ -201,16 +201,16 @@ report({
             "height": 0
           },
           "misMatchPercentage": "42.42",
-          "analysisTime": 192
+          "analysisTime": 173
         },
-        "diffImage": "../bitmaps_test/20210306-232128/failed_diff_MISO-Pruebasautomatizadas_07_0_document_0_tablet.png"
+        "diffImage": "../bitmaps_test/20210309-193418/failed_diff_MISO-Pruebasautomatizadas_07_0_document_0_tablet.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/MISO-Pruebasautomatizadas_08_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20210306-232128/MISO-Pruebasautomatizadas_08_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20210309-193418/MISO-Pruebasautomatizadas_08_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "MISO-Pruebasautomatizadas_08_0_document_0_tablet.png",
         "label": "08",
@@ -227,16 +227,16 @@ report({
             "height": 0
           },
           "misMatchPercentage": "1.34",
-          "analysisTime": 89
+          "analysisTime": 136
         },
-        "diffImage": "../bitmaps_test/20210306-232128/failed_diff_MISO-Pruebasautomatizadas_08_0_document_0_tablet.png"
+        "diffImage": "../bitmaps_test/20210309-193418/failed_diff_MISO-Pruebasautomatizadas_08_0_document_0_tablet.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/MISO-Pruebasautomatizadas_09_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20210306-232128/MISO-Pruebasautomatizadas_09_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20210309-193418/MISO-Pruebasautomatizadas_09_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "MISO-Pruebasautomatizadas_09_0_document_0_tablet.png",
         "label": "09",
@@ -253,16 +253,16 @@ report({
             "height": 0
           },
           "misMatchPercentage": "8.35",
-          "analysisTime": 123
+          "analysisTime": 115
         },
-        "diffImage": "../bitmaps_test/20210306-232128/failed_diff_MISO-Pruebasautomatizadas_09_0_document_0_tablet.png"
+        "diffImage": "../bitmaps_test/20210309-193418/failed_diff_MISO-Pruebasautomatizadas_09_0_document_0_tablet.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/MISO-Pruebasautomatizadas_10_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20210306-232128/MISO-Pruebasautomatizadas_10_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20210309-193418/MISO-Pruebasautomatizadas_10_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "MISO-Pruebasautomatizadas_10_0_document_0_tablet.png",
         "label": "10",
@@ -279,9 +279,9 @@ report({
             "height": 0
           },
           "misMatchPercentage": "19.11",
-          "analysisTime": 125
+          "analysisTime": 103
         },
-        "diffImage": "../bitmaps_test/20210306-232128/failed_diff_MISO-Pruebasautomatizadas_10_0_document_0_tablet.png"
+        "diffImage": "../bitmaps_test/20210309-193418/failed_diff_MISO-Pruebasautomatizadas_10_0_document_0_tablet.png"
       },
       "status": "fail"
     }

@@ -1,0 +1,7 @@
+kumuluzee:
+  name: faker-java
+  version: 1.0
+  server:
+    base-url: http://localhost:9876
+    http:
+      port: 9876

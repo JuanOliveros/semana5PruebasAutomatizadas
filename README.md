@@ -29,6 +29,9 @@ Vea el archivo en el repositorio  [AQUI](https://github.com/JuanOliveros/semana5
 
 ### Datapool Apriori  - Christian Loza
 Se utiliza bubles para ejecutar bloques de código de manera rápida consumiendo servicio u obteniendo los datos dentro del proyecto.
+
+Se requiere javascript y el microservicio creado en java.
+
 ```javascript
 (async function () {
             try {

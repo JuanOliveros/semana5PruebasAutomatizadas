@@ -15,6 +15,53 @@ Instrucciones:
 - Sobre el archivo anteriormente creado, sobre cypress oprima run.
 
 ## Pruebas de extremo a extremo:
+#####<H1> Pruebas Kraken - Juan Diego Oliveros - Funcionalidades semana 06 </H1>
+- Cada archivo feature, normalmentete contiene 2 escenarios.
+
+##### Funcionalidad 01
+
+- Se valida que se pueda agregar la locación al staff.
+- Se valida que se pueda agregar la url de facebook al staff.
+- Se comprueba que el url site no permita carácteres especiales.
+- Se comprueba que el Bio  site no permita carácteres especiales.
+- Se valida que el twitter link no acepte facebook link.
+
+
+-Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/feat/FunWeek6_Version_3.3.0/addLocationStaff.feature).
+
+-Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/feat/FunWeek6_Version_3.3.0/addLocationStaff2.feature).
+
+-Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/feat/FunWeek6_Version_3.3.0/addLocationStaff3.feature)
+
+##### Funcionalidad 02
+
+- Se comprueba que se pueda expandir el titulo y la descipción.
+- Se valida que el sitio se pueda convertir en privado.
+- Se compureba que se pueda eliminar el logo.
+- Se comprueba que se pueda eliminar el cover.
+- Se valida que guarde un logo nuevo.
+
+-Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/feat/FunWeek6_Version_3.3.3/generalButtons1.feature).
+
+-Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/feat/FunWeek6_Version_3.3.0/generaDeletes2.feature).
+
+-Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/feat/FunWeek6_Version_3.3.0/generalSave3.feature)
+
+##### Funcionalidad 03
+
+- Se comprueba que se pueda activar un miebro.
+- Se valida que se pueda descargar el archivo routes.yaml.
+- Se valida que se pueda descargar el archivo .json llamado current redirects.
+- Se valida que exiata el link corercto en el texto 'Find Out More'.
+- Se valida que exiata el link corercto en el texto 'Mailgun API'.
+
+
+-Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/feat/FunWeek6_Version_3.3.0/LabsEnableDownloadYaml.feature).
+
+-Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/feat/FunWeek6_Version_3.3.0/LabsDownloadJsonNewTab.feature).
+
+-Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/feat/FunWeek6_Version_3.3.0/LabsMailgunAPI.feature)
+
 
 
 ## Pruebas de datos aleatorios:

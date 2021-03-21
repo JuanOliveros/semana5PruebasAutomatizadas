@@ -1,5 +1,5 @@
-describe('Ghost 3.0.0 under monkeys', function() {
-    it('visits Ghost 3.0.0 and survives monkeys', function() {
+describe('Ghost 3.3.0 under monkeys', function() {
+    it('visits Ghost 3.3.0 and survives monkeys', function() {
 		cy.visit('http://localhost:2999/ghost/#/signin')
 		cy.get('#ember8').type('j.oliverosv@uniandes.edu.co')
 		cy.get('#ember10').type('Almendra1*')

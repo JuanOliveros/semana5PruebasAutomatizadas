@@ -1,4 +1,6 @@
 ## Semana 08 - pasos para la ejecución
+### Link estrategía final de pruebas [AQUI](https://uniandes-my.sharepoint.com/:w:/g/personal/j_oliverosv_uniandes_edu_co/EfmhfW5OkrFNm9SNIKKhJM4B0S7Cgyj29EZIKSA5ZU3jug?e=axbqax).
+
 ## Pruebas exploratorias:
 En la carpeta pruebas exploratorias, econtrará un archivo de excel que contiene el listado de pruebas ejecutadas en en el ghost. En el mismo excel existe una columna con el link del video que cada una de las funcionalidades revisadas, allí se explica si la funcionalidad exitosamente o no.
 

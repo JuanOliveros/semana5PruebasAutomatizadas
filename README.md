@@ -5,7 +5,7 @@ La estrategía que corresponde a la versión 3.3.0 está en la rama estrategiaGh
 Allí encontrará:
 - Readme con los pasos de ejecución.
 - Un archivo en word que contiene la estrategía (este archivo se debe descargar).
-- Econtrará 4 carpetas: 
+- Encontrará 4 carpetas: 
 1. 'Pruebas exploratorias' que corresponde a las pruebas exploratorias.
 2. 'Pruebas de reconocimiento' que corresponde a los archivos para ejecutar las pruebas de reconocimiento.
 3. 'Pruebas E2E' que corresponde a las pruebas de extremo a axtremo.

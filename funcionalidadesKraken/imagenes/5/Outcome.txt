@@ -1,1 +1,0 @@
-The second image is 21.27% different compared to the first. And they have different dimensions.

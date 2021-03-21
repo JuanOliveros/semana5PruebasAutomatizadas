@@ -15,8 +15,19 @@ Instrucciones:
 - Sobre el archivo anteriormente creado, sobre cypress oprima run.
 
 ## Pruebas de extremo a extremo:
-### Pruebas Kraken - Juan Diego Oliveros - Funcionalidades semana 06 </H1>
+### Pruebas Kraken
 - Cada archivo feature, normalmentete contiene 2 escenarios.
+
+##### Ejecución
+
+El ghost se debe configurar para que corra en el puerto 2999 y no en el 2368
+
+```bash
+bundle install
+bundle exec kraken-mobile run
+```
+alternativo
+` kraken-mobile run`
 
 ##### Funcionalidad 01
 

@@ -1,3 +1,7 @@
+## Semana 08 - Estrategía final
+
+
+
 ## Semana 07 - Pruebas con generación de datos automáticos y manuales
 
 ### Estrátegia dinámica - Juan Oliveros

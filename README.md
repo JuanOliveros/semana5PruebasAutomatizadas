@@ -20,7 +20,7 @@ Instrucciones:
 
 ##### Ejecución
 
-El ghost se debe configurar para que corra en el puerto 2999 y no en el 2368
+El ghost se debe configurar para que corra en el puerto 2999 y no en el 2368.
 
 ```bash
 bundle install

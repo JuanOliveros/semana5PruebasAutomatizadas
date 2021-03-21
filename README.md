@@ -1,6 +1,5 @@
 ## Semana 08 - Estrategía final
-Se crearon dos estrategías, una que corersponde a la versión 3.3.0 y la otra a la versión 3.46.6.
-La estrategía que corresponde a la versión 3.3.0 está en la rama estrategiaGhost300.
+La estretagía final para la dos versiones Ghost la encuentra en la rama 'estrategiaGhost300'
 
 Allí encontrará:
 - Readme con los pasos de ejecución.

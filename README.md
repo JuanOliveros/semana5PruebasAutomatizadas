@@ -3,13 +3,13 @@ Se crearon dos estrategías, una que corersponde a la versión 3.3.0 y la otra a
 La estrategía que corresponde a la versión 3.3.0 está en la rama estrategiaGhost300.
 
 Allí encontrará:
-1. Readme con los pasos de ejecución.
-2. Un archivo en word que contiene la estrategía (este archivo se debe descargar).
-3. Econtrará 4 carpetas: 
-- 'Pruebas exploratorias' que corresponde a las pruebas exploratorias.
-- 'Pruebas de reconocimiento' que corresponde a los archivos para ejecutar las pruebas de reconocimiento.
-- 'Pruebas E2E' que corresponde a las pruebas de extremo a axtremo.
-- 'Pruebas datos aleatorios' que corresponde a pruebas generadas con datos aleatorios desde faker.js
+- Readme con los pasos de ejecución.
+- Un archivo en word que contiene la estrategía (este archivo se debe descargar).
+- Econtrará 4 carpetas: 
+1. 'Pruebas exploratorias' que corresponde a las pruebas exploratorias.
+2. 'Pruebas de reconocimiento' que corresponde a los archivos para ejecutar las pruebas de reconocimiento.
+3. 'Pruebas E2E' que corresponde a las pruebas de extremo a axtremo.
+4. 'Pruebas datos aleatorios' que corresponde a pruebas generadas con datos aleatorios desde faker.js
 
 Link para ver el video de las estrategías [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/Estrateg%C3%ADa%20din%C3%A1mica%20(60)%20Faker%20Cypress%20-%20Juan%20Oliveros/logging.js)
 

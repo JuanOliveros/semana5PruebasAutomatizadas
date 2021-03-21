@@ -27,11 +27,11 @@ Instrucciones:
 - Se valida que el twitter link no acepte facebook link.
 
 
--Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/feat/FunWeek6_Version_3.3.0/addLocationStaff.feature).
+-Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/estrategiaGhost300/Pruebas%20E2E/addLocationStaff.feature).
 
--Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/feat/FunWeek6_Version_3.3.0/addLocationStaff2.feature).
+-Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/estrategiaGhost300/Pruebas%20E2E/addLocationStaff2.feature).
 
--Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/feat/FunWeek6_Version_3.3.0/addLocationStaff3.feature)
+-Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/estrategiaGhost300/Pruebas%20E2E/addLocationStaff3.feature)
 
 ##### Funcionalidad 02
 
@@ -41,11 +41,11 @@ Instrucciones:
 - Se comprueba que se pueda eliminar el cover.
 - Se valida que guarde un logo nuevo.
 
--Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/feat/FunWeek6_Version_3.3.3/generalButtons1.feature).
+-Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/estrategiaGhost300/Pruebas%20E2E/generalButtons1.feature).
 
--Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/feat/FunWeek6_Version_3.3.0/generaDeletes2.feature).
+-Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/estrategiaGhost300/Pruebas%20E2E/generaDeletes2.feature).
 
--Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/feat/FunWeek6_Version_3.3.0/generalSave3.feature)
+-Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/estrategiaGhost300/Pruebas%20E2E/generalSave3.feature)
 
 ##### Funcionalidad 03
 
@@ -56,11 +56,11 @@ Instrucciones:
 - Se valida que exiata el link corercto en el texto 'Mailgun API'.
 
 
--Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/feat/FunWeek6_Version_3.3.0/LabsEnableDownloadYaml.feature).
+-Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/estrategiaGhost300/Pruebas%20E2E/LabsEnableDownloadYaml.feature).
 
--Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/feat/FunWeek6_Version_3.3.0/LabsDownloadJsonNewTab.feature).
+-Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/estrategiaGhost300/Pruebas%20E2E/LabsDownloadJsonNewTab.feature).
 
--Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/funcionalidadesKraken/feat/FunWeek6_Version_3.3.0/LabsMailgunAPI.feature)
+-Vea el archivo en el repositorio versión Ghost 3.3.0 [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/estrategiaGhost300/Pruebas%20E2E/LabsMailgunAPI.feature)
 
 
 

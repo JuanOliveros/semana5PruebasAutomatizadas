@@ -15,7 +15,7 @@ Instrucciones:
 - Sobre el archivo anteriormente creado, sobre cypress oprima run.
 
 ## Pruebas de extremo a extremo:
-#####<H1> Pruebas Kraken - Juan Diego Oliveros - Funcionalidades semana 06 </H1>
+### Pruebas Kraken - Juan Diego Oliveros - Funcionalidades semana 06 </H1>
 - Cada archivo feature, normalmentete contiene 2 escenarios.
 
 ##### Funcionalidad 01

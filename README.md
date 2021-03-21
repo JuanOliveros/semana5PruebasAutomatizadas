@@ -14,5 +14,9 @@ Instrucciones:
 - En la carpeta integration>examples, agregue el archivo 'monkey_testing.spec.js' que está ubicado en la carpeta 'Pruebas de reconocimiento'
 - Sobre el archivo anteriormente creado, sobre cypress oprima run.
 
+## Pruebas de extremo a extremo:
+
+## Pruebas de datos aleatorios:
+
 
 

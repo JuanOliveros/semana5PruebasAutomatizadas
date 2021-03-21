@@ -1,4 +1,15 @@
 ## Semana 08 - Estrategía final
+Se crearon dos estrategías, uan que corersponde a la versión 3.0.0 y la otra a la versión 3.46.6
+La estrategía que corresponde a la versión 3.0.0 está en la rama estrategiaGhost300.
+
+Allí encontrará:
+1. Readme con los pasos de ejecución.
+2. Un archivo en word que contiene la estrategía (este archivo se debe descargar)
+3. Econtrará dos carpetas, una nombrada como 'Pruebas exploratorias' que corresponde a las pruebas exploratorias.
+4. Y la segunda  carpeta nombrada como 'Pruebas de reconocimiento' que corresponde a los archivos para ejecutar las pruebas de reconocimiento.
+
+
+Link para ver el video de la estrategía [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/Estrateg%C3%ADa%20din%C3%A1mica%20(60)%20Faker%20Cypress%20-%20Juan%20Oliveros/logging.js)
 
 
 

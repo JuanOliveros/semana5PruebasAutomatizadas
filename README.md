@@ -9,7 +9,7 @@ Allí encontrará:
 4. Y la segunda  carpeta nombrada como 'Pruebas de reconocimiento' que corresponde a los archivos para ejecutar las pruebas de reconocimiento.
 
 
-Link para ver el video de la estrategía [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/Estrateg%C3%ADa%20din%C3%A1mica%20(60)%20Faker%20Cypress%20-%20Juan%20Oliveros/logging.js)
+Link para ver el video de la estrategía general [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/Estrateg%C3%ADa%20din%C3%A1mica%20(60)%20Faker%20Cypress%20-%20Juan%20Oliveros/logging.js)
 
 
 

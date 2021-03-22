@@ -10,7 +10,7 @@ Allí encontrará:
 3. 'Pruebas E2E' que corresponde a las pruebas de extremo a axtremo.
 4. 'Pruebas datos aleatorios' que corresponde a pruebas generadas con datos aleatorios desde faker.js
 
-Link para ver el video de las estrategías [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/Estrateg%C3%ADa%20din%C3%A1mica%20(60)%20Faker%20Cypress%20-%20Juan%20Oliveros/logging.js)
+
 
 
 

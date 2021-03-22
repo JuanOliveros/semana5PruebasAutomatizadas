@@ -126,5 +126,98 @@ Y así con muchos más escenarios.
 
 Vea el archivo en el repositorio  [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/Estrateg%C3%ADa%20din%C3%A1mica%20(60)%20Faker%20Cypress%20-%20Juan%20Oliveros/postTitle.js)
 
+#### Datapool Apriori  - Christian Loza
+Se utiliza bubles para ejecutar bloques de código de manera rápida consumiendo servicio u obteniendo los datos dentro del proyecto.
+
+Se requiere javascript y el microservicio creado en java.
+
+```javascript
+(async function () {
+            try {
+                const response = await fetch(PATHSERVICE + 'integration-data');
+                let  myJson = await response.json();
+                for (let i=0; i< myJson.length; i++) {
+                    await page.click('text=Add custom integration');
+                    await page.fill('[placeholder="Integration name..."]', myJson[i]);
+                    delay(1000)
+                    await page.click('text=Integrations');
+                }
+
+            } catch (error) {
+                console.log('i found a  bug ');
+                throw error
+            }
+        })().catch( e => { console.error(e) })
+```
+#### Funcionalidad 03(Add Member Staff)
+Esta funcionalidad se prueba agregar miembros con diversos correos váidos y errones que determinan agregar usuarios. para este caso se usan valores de un array con elementos fijos el cual se utiliza datos del arreglo de forma aleatoria.
+La prueba puede encontrar en el primer bloque de código [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/semana07/test-pruebas/simple/testcase01.ts "AQUI")
+
+Para la configuración requiere Playwrigth utilice el comando: `npm install`  y ejecutar la prueba requiere ejecutar el comando `node simple/testcase01.ts`.
+
+#### Funcionalidad 04(Add Integrations)
+Se prueba la funcionalidad  de las integraciones consumiendo un servicio, el archivo puede verse  [AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/blob/main/semana07/test-pruebas/simple/testcase01.ts "AQUI")
+![imagen](https://user-images.githubusercontent.com/15898160/111100563-05528180-8516-11eb-8252-e601efd2ca6b.png)
+Esta funcionalidad se prueba con un servicio REST implementado en Java [VER AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/tree/main/semana07/faker "VER AQUI"). 
+Para su ejecución requiere ejecutar `mvn clean package` y luego ejecutar `java -jar target/faker-1.0-SNAPSHOT.jar` el puerto 9876 debe estar libre. 
+La especificación del servicio puede verse en mediante el siguiente enlace: http://localhost:9876/api-specs/swagger.json
+
+### Caso Aleatorio  - Christian Loza
+#### Funcionalidad 05(Add Member Staff)
+Este caso utiliza las  implementaciones  anteriores,  requiere las configuraciones señaladas anteriormente para su ejección.
+Esta funcionalidad se prueba con un servicio REST implementado en Java [VER AQUI](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/tree/main/semana07/faker "VER AQUI"). 
+
+#### Pruebas BDT con Playwright - Christian Loza Peralta 
+
+##### Nuevas funcionalidades, regresión y comparación
+
+Las pruebas realizadas en las nuevas funcionalides en comparación  no pasan las pruebas de  regresión debido a que las versiones especificadas en  uso no representan semenjanza en en el Ghost Admin.
+
+![imagen](https://user-images.githubusercontent.com/15898160/110220401-86b17080-7e93-11eb-8e9e-3c2a13caef54.png)
+
+##### Nueva funcionalidad agregada
+Se agrego una funcionalidad para evitar problemas al cargar la página para conexiones lentas.
+```javascript
+function delay(time) {
+    return new Promise(function(resolve) {
+        setTimeout(resolve, time)
+    });
+}
+
+```
+#### Reporte automático con BackstopJS
+![imagen](https://user-images.githubusercontent.com/15898160/110229104-014eb000-7ed5-11eb-99e4-aa39c1950702.png)
+![imagen](https://user-images.githubusercontent.com/15898160/110229283-52ab6f00-7ed6-11eb-8145-b97a9e6ee8bd.png)
 
 
+[https://github.com/JuanOliveros/semana5PruebasAutomatizadas/tree/main/backstop-report](https://github.com/JuanOliveros/semana5PruebasAutomatizadas/tree/main/backstop-report)
+
+`backstop reference, test`
+
+Para visualizar el reporte vaya a la ruta `backstop-report/backstop_data/html_report`  el archivo `index.html`
+
+
+
+#### Tabla de comparación
+
+
+
+|  Ghost 3.41.6 |   Ghost 3.3.0 |  visual regression |Result|
+| ------------ | ------------ | ------------ |------------|
+|  ![imagen](https://user-images.githubusercontent.com/15898160/110219787-405a1280-7e8f-11eb-9033-f90d924250f2.png) |  ![imagen](https://user-images.githubusercontent.com/15898160/110219799-54057900-7e8f-11eb-8dd3-fe91585839d1.png) |  ![imagen](https://user-images.githubusercontent.com/15898160/110219816-697aa300-7e8f-11eb-9674-eee9cd1d0b6d.png) |**Failed **</br>There are some elements that are not the same |
+
+|  Ghost 3.41.6 |   Ghost 3.3.0 |  visual regression |Result|
+| ------------ | ------------ | ------------ |------------|
+|![imagen](https://user-images.githubusercontent.com/15898160/110220156-ba8b9680-7e91-11eb-8dbf-711668584387.png)|![imagen](https://user-images.githubusercontent.com/15898160/110220046-1275cd80-7e91-11eb-9516-9b95b4f9ce4d.png)|![imagen](https://user-images.githubusercontent.com/15898160/110220176-d0995700-7e91-11eb-8571-83bcb3196382.png)|**Failed **</br>There are some elements that are not the same |
+
+|  Ghost 3.41.6 |   Ghost 3.3.0 |  visual regression |Result|
+| ------------ | ------------ | ------------ |------------|
+|![imagen](https://user-images.githubusercontent.com/15898160/110220230-1d7d2d80-7e92-11eb-8b85-2a5809141386.png)|![imagen](https://user-images.githubusercontent.com/15898160/110220231-20781e00-7e92-11eb-8621-9c9a771c54de.png)|![imagen](https://user-images.githubusercontent.com/15898160/110220234-22da7800-7e92-11eb-932d-0c61a85b9f2b.png)|**Passed **</br> |
+
+|  Ghost 3.41.6 |   Ghost 3.3.0 |  visual regression |Result|
+| ------------ | ------------ | ------------ |------------|
+|![imagen](https://user-images.githubusercontent.com/15898160/110220316-d17eb880-7e92-11eb-8733-630b19c53aa1.png)|![imagen](https://user-images.githubusercontent.com/15898160/110220319-d479a900-7e92-11eb-8308-f7012a6254b4.png)|![imagen](https://user-images.githubusercontent.com/15898160/110220320-d5aad600-7e92-11eb-8fbb-84bf8c1a5376.png)|**Failed **</br>There are some elements that are not the same |
+
+|  Ghost 3.41.6 |   Ghost 3.3.0 |  visual regression |Result|
+| ------------ | ------------ | ------------ |------------|
+|![imagen](https://user-images.githubusercontent.com/15898160/110220337-fb37df80-7e92-11eb-9273-e6ecd81cfefc.png)|![imagen](https://user-images.githubusercontent.com/15898160/110220340-fd01a300-7e92-11eb-8e9d-bfb93ca00958.png)|![imagen](https://user-images.githubusercontent.com/15898160/110220345-ff63fd00-7e92-11eb-9909-3db57e37e2cb.png)|**Failed **</br>There are some elements that are not the same |
